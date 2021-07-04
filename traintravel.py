@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-#kumar text editor
-#"New line added to check the merge and the conflict status """
+#kumar 
+"""
 Spyder Editor
-" this has been changed in master branch!!!!!!!!!!!!
+""
 This is a temporary script file.
 """
 import sys
@@ -37,8 +37,19 @@ class Train:
     
     def traintype_model(self):
         return self._traintype.model()
-    
- 
+
+    def allocate_seat(seat, passanger):
+        rows, seat_letters = self._aircraft.seating_plan()
+
+        letter = seat[:-1]
+        if letter not in seat_letters:
+            raise ValueError (f"Invalid seat letter {letter}")
+        
+        row_text = seat[:-1]
+        try:
+            row = int(row_text)
+        except ValueError:
+            raise ValueError(f"Invalid seat row{row_text}")
 
 # Class  to accept the seat booking as per train model we need to know the seating layout
 # train model nuumber, coach model number.
