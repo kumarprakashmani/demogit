@@ -1,10 +1,18 @@
 # -*- coding: utf-8 -*-
+<<<<<<< HEAD
 #kumar 
 """
 Spyder Editor
 ""
 This is a temporary script file.
 """
+=======
+#kumar text editor
+#"New line added to check the merge and the conflict status """
+#Spyder Editor
+
+#This is a temporary script file.
+>>>>>>> devbranch
 import sys
 
 class Train:
