@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
 #kumar text editor
 #"New line added to check the merge and the conflict status """
-Spyder Editor
+#Spyder Editor
 
-This is a temporary script file.
-"""
+#This is a temporary script file.
 import sys
 
 class Train:
