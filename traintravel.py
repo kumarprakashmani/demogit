@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-
-"New line added to check the merge and the conflict status """
+#kumar text editor
+#"New line added to check the merge and the conflict status """
 Spyder Editor
 " this has been changed in master branch!!!!!!!!!!!!
 This is a temporary script file.
