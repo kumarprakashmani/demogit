@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-"""
+
+"New line added to check the merge and the conflict status """
 Spyder Editor
 
 This is a temporary script file.
